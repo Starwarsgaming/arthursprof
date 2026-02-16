@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Manufacturing Consent', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.persona-card {
+    background: rgb(251, 255, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+.bio{
+    color: #333333
+}
+
+p{
+    font-size: 30px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Prevents image stretching */
+}
+
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.column {
+    width: 45%;
+}
+
+
+/* Add your own colors below based on your Vibe! */
+h1 { color: #333; font-size: 56px;}
+h2 { color: #ff0000; font-size: 40px;}
+h3 { color: #555; border-bottom: 2px solid #ddd; font-size: 32px;}
